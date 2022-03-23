@@ -1,0 +1,79 @@
+.content{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  &__header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    &__logo{
+      background-image: url('../../assets/images/LOGO.png');
+      background-size: 100% 100%;
+      width: 100px;
+      height: 30px;
+    }
+    &__nav{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 600px;
+      div{
+        width: 30px;
+      }
+    }
+    &__buttons{
+      display: flex;
+      flex-direction: row;
+      width: 300px;
+      justify-content: space-around;
+      &__b1{
+        button{
+          margin-top: 10px;
+          background-color: #1E864B;
+          border: 1px solid #56B47E;
+          color: #fff;
+        }
+      }
+      &__b2{
+        color: #1E864B;
+        button{
+          mat-icon{
+            color: #1E864B;
+          }
+          p{
+            color: #1E864B;
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+  &__img{
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/images/stock-photo-happy-telemarketer-working-at-call-center-with-other-employees-in-the-background-686858677.jpg');
+    background-position: 0px -250px;
+    &__shadow{
+      background-color: rgba(0, 0, 0, 0.411);
+      width: 100%;
+      height: 100%;
+      background-image: url('../../assets/images/LOGO-RECTANGLE-BLANC.png');
+      background-size: 100px 30px;
+      background-repeat: no-repeat;
+      background-position: 80% 90%;
+      color: #fff;
+      font-size: 50px;
+      text-align: center;
+      line-height: 300px;
+
+    }
+  }
+}
